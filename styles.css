@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.post {
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+}
+.post-header {
+  display: flex;
+}
+.post-header-left {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.html5-logo {
+  text-align: center;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.left-side h1 {
+  margin-bottom: 0;
+}
+.left-side p {
+  margin-top: 0;
+}
+
+.right-side {
+  margin-left: auto;
+}
+.right-side img {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+}
+.left-side h1 {
+  font-size: large;
+}
+.left-side p {
+  font-size: medium;
+}
+.post-img {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.icon-container {
+  display: flex;
+  margin: 20px;
+}
+.body-icons-left {
+  display: flex;
+  gap: 10px;
+}
+.body-icons-right {
+  margin-left: auto;
+}
+.body-icons-left img {
+  height: 30px;
+  width: 30px;
+}
+
+.body-icons-right img {
+  height: 30px;
+  width: 30px;
+}
+.post-body p {
+  margin: 20px;
+}
